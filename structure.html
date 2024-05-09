@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+
+    <div>Teachable Machine Audio Model</div>
+    <button type="button" onclick="startListening()">Start</button>
+    <div id="label-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@latest"></script>    
+    
+    <title>Voice-Controlled Snake Game</title>
+    <link rel="stylesheet" href="GameStyling.css">
+</head>
+<body>
+    <div id="headingBar">Voice-Controlled Snake Game</div>
+    <div id="gameArea"></div>
+    <div id="scoreBoard">Score: <span id="score">0</span></div>
+    <button id="restartButton" onclick="initializeGame()">Restart Game</button>
+
+
+    <script src="GameScript.js"></script>
+</body>
+</html>
